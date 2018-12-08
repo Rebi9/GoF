@@ -8,11 +8,11 @@ public class CharDisplay extends AbstractDisplay{
 	}
 
 	public void open() {
-		System.out.println("<<");
+		System.out.print("<<");
 	}
 
 	public void print() {
-		System.out.println(ch);
+		System.out.print(ch);
 	}
 
 	public void close() {
